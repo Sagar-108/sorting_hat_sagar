@@ -74,6 +74,33 @@ void assignHouse(Students student) {
     
     }
 
+vector<int> getBoardingHouses() {
+        cout<<"A_V: ";
+        for(auto i:house_A_V)
+            cout<<i<<", ";
+        cout<<endl;
+        
+        cout<<"A_NV: ";
+        for(auto i:house_A_NV)
+            cout<<i<<", ";
+        cout<<endl;
+
+        cout<<"B_V: ";
+        for(auto i:house_B_V)
+            cout<<i<<", ";
+        cout<<endl;
+
+        cout<<"B_NV: ";
+        for(auto i:house_B_NV)
+            cout<<i<<", ";
+        cout<<endl;
+        
+        cout<<"NA: ";
+        for(auto i: NA)
+            cout<<i<<", ";
+        cout<<endl;
+
+    }
 
 
 private:

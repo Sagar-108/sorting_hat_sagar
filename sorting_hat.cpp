@@ -117,5 +117,29 @@ private:
 
 int main(){
 
+    int capacity;
+    cout<<"Enter the total capacity of all boarding houses (a multiple of 4)"<<endl;
+    cin>>capacity;
+    sortingHat sh(capacity/4);
+
+  
+    while (1)
+    {
+        string state;
+        int roll;
+        char clas;
+        string food;
+        cin>>state;
+        if(state != "reg")
+            break;
+        cin >> roll >> clas >> food;
+
+        Students newStudent(roll, clas, food);
+            sh.assignHouse(newStudent);
+    }
+
+    sh.getBoardingHouses();
+
+
     return 0;
 }

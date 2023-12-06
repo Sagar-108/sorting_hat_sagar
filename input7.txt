@@ -1,0 +1,22 @@
+20
+reg 0701 A V
+reg 0702 B NV
+reg 0703 A NV
+reg 0704 B V
+reg 0705 A V
+reg 0706 B NV
+reg 0707 A NV
+reg 0708 B V
+reg 0709 A V
+reg 0710 B NV
+reg 0711 A NV
+reg 0712 B V
+reg 0713 A V
+reg 0714 B NV
+reg 0715 A NV
+reg 0716 B V
+reg 0717 A V
+reg 0718 B NV
+reg 0719 A NV
+reg 0720 B V
+fin

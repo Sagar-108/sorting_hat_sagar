@@ -1,0 +1,14 @@
+12
+reg 0301 A V
+reg 0302 B NV
+reg 0303 A NV
+reg 0304 B V
+reg 0305 A V
+reg 0306 B NV
+reg 0307 A NV
+reg 0308 B V
+reg 0309 A V
+reg 0310 B NV
+reg 0311 A NV
+reg 0312 B V
+fin

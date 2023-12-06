@@ -1,0 +1,13 @@
+4
+reg 0401 A V
+reg 0402 B NV
+reg 0403 A NV
+reg 0404 B V
+reg 0405 A V
+reg 0406 B NV
+reg 0407 A NV
+reg 0408 B V
+reg 0409 A V
+reg 0410 B NV
+reg 0411 A NV
+fin

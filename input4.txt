@@ -1,0 +1,10 @@
+8
+reg 0201 A V
+reg 0202 B NV
+reg 0203 A NV
+reg 0204 B V
+reg 0205 A V
+reg 0206 B NV
+reg 0207 A NV
+reg 0208 B V
+fin

@@ -1,0 +1,6 @@
+4
+reg 0101 A V
+reg 0102 B NV
+reg 0103 A NV
+reg 0104 B V
+fin

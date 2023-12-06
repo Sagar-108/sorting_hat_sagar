@@ -35,6 +35,27 @@ public:
     }
 };
 
+
+class sortingHat
+{
+
+public:
+    sortingHat(int cap){
+        capacity = cap;
+    }
+
+private:
+    vector<int> house_A_V;
+    vector<int> house_A_NV;
+    vector<int> house_B_V;
+    vector<int> house_B_NV;
+    vector<int> NA;
+    unordered_set<int> registered_set;
+    int capacity;
+};
+
+
+
 int main(){
 
     return 0;

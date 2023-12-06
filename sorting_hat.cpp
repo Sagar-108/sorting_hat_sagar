@@ -44,6 +44,38 @@ public:
         capacity = cap;
     }
 
+void assignHouse(Students student) {
+        char clsn = student.getStudentClass();
+        int roll = student.getRollNumber();
+        string foodp = student.getFoodPreference();
+
+        if(registered_set.find(roll) == registered_set.end()){
+
+            registered_set.insert(roll);
+
+            if(clsn == 'A' && foodp == "V" && house_A_V.size() < capacity){
+                house_A_V.push_back(roll);
+            }
+            else if(clsn == 'B' && foodp == "V" && house_B_V.size() < capacity){
+                house_B_V.push_back(roll);
+            }
+            else if(clsn == 'A' && foodp == "NV" && house_A_NV.size() < capacity){
+                house_A_NV.push_back(roll);
+            }
+            else if(clsn == 'B' && foodp == "NV" && house_B_NV.size() < capacity){
+                house_B_NV.push_back(roll);
+            }
+
+            else{
+                NA.push_back(roll);
+            }
+
+        }
+    
+    }
+
+
+
 private:
     vector<int> house_A_V;
     vector<int> house_A_NV;

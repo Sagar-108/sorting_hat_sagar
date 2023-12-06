@@ -118,7 +118,7 @@ private:
 int main(){
 
     int capacity;
-    cout<<"Enter the total capacity of all boarding houses (a multiple of 4)"<<endl;
+    // cout<<"Enter the total capacity of all boarding houses (a multiple of 4)"<<endl;
     cin>>capacity;
     sortingHat sh(capacity/4);
 
